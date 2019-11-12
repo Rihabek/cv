@@ -70,6 +70,11 @@ div .section {
   font-size: 3rem;
   color: wheat;
  }
+ .intro{
+   color: wheat;
+   font-family: 'Courgette', cursive;
+   margin-top: 0.1rem;
+ }
 
  .icon {
    font-size: 7rem;
