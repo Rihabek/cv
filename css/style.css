@@ -1,0 +1,78 @@
+body {
+  background-color: black ;
+  font-family: 'Courgette', cursive;
+
+
+}
+header .head {
+  color: wheat;
+  font-family: 'Courgette', cursive !important;
+
+}
+nav{
+  margin:  auto;
+  text-align: center;
+  align-items: center;
+}
+nav li  {
+  display: inline;
+  font-size: 1.90rem;
+  margin-left: 0.8rem;
+  /* border:2px solid wheat;
+  border-radius: 0.5rem; */
+
+}
+
+nav li a {
+  color: #ffc9a0 !important;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  display: contents;
+}
+#image{
+  margin-top: 30em;
+}
+.container h2 {
+  color: wheat;
+  margin-top: 10rem
+  font-family: 'Courgette', cursive;
+
+}
+ #a-propos {
+   color: wheat;
+   text-align: center;
+   font-family: 'Courgette', cursive;
+
+ }
+ hr {
+   margin: 1.0rem;
+   background-color: wheat;
+
+ }
+
+.center img  {
+   text-align: center;
+   display: block;
+ }
+ ul {
+   list-style-type: none;
+ }
+/* * {
+     transform: rotate(180deg);
+} */
+
+div .section {
+  margin-top:20em;
+}
+
+ .section .title {
+  font-family: 'Courgette', cursive;
+  font-size: 3rem;
+  color: wheat;
+ }
+
+ .icon {
+   font-size: 7rem;
+   background-color: lightblue ;
+   color: black;
+ }
