@@ -1,13 +1,41 @@
 body {
+<<<<<<< HEAD
   font-family: 'Courgette', cursive;
   background-image: url("https://images.wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1920x1080.jpg"):
+=======
+  margin: 0 ;
+  font-family: 'Courgette', cursive;
+  width: 100%;
+  margin: auto;
+  font-size: 90%;
+  color: #677273;
+  font-family: roboto,sans-serif;
+  min-height: 320px;
+  min-width: 240px;
+  cursor: default;
+  position: relative;
+>>>>>>> 4d2b4522ca174864b1ba8008566cc8715f508524
 
+}
+div .container {
+  margin: 0;
+  padding: 0;
+}
 
+.header {
+  z-index: -999;
+  width: 100%;
+  position: relative;
+  background-color: #677273;
 }
 header .head {
   color: wheat;
   font-family: 'Courgette', cursive !important;
 
+}
+#menu {
+  overflow: hidden;
+  background-color: #333;
 }
 nav{
   margin:  auto;
@@ -15,19 +43,25 @@ nav{
   align-items: center;
 }
 nav li  {
-  display: inline;
+  text-align: center;
   font-size: 1.90rem;
-  margin-left: 0.8rem;
+  margin-left: 1rem;
   /* border:2px solid wheat;
   border-radius: 0.5rem; */
 
 }
 
-nav li a {
+.nav-link{
   color: #ffc9a0 !important;
   font-family: 'Courgette', cursive;
   text-align: center;
-  display: contents;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
 }
 #image{
   margin-top: 30em;
@@ -58,20 +92,19 @@ nav li a {
    list-style-type: none;
  }
 /* * {
-     transform: rotate(180deg);
+     transform: rotate(100deg);
 } */
 
 div .section {
-  margin-top:20em;
+  margin-top:10em;
 }
+
 
  .section .title {
   font-family: 'Courgette', cursive;
   font-size: 3rem;
-  color: wheat;
  }
  .intro{
-   color: wheat;
    font-family: 'Courgette', cursive;
    margin-top: 0.1rem;
  }
@@ -81,3 +114,10 @@ div .section {
    background-color: lightblue ;
    color: black;
  }
+ .row p {
+ }
+div .section {
+  background: #F4F4F4;
+  background-size: cover;
+
+}
